@@ -23,6 +23,8 @@ public class Forecast {
     }
     public class  Temperature{
 
+        public int max;
+        public int min;
     }
 
 }
