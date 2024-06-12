@@ -6,6 +6,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -22,6 +23,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.coolweather.yezidong.gson.Forecast;
 import com.coolweather.yezidong.gson.Weather;
+import com.coolweather.yezidong.service.AutoUpdateService;
 import com.coolweather.yezidong.util.HttpUtil;
 import com.coolweather.yezidong.util.Utility;
 
